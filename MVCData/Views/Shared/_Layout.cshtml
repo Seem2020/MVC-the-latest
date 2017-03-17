@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div style="background-color: #808080" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    
+                    <img id="logo" src="data:image/gif;base64,R0lGODlh0AGgALMAAPvp6e2Pj+dra/jS0uNSUt0sLPGoqNYAAPS7u/////3z89sdHf76+tgNDf/8/N88PCH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYuMTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjMzQzFGRkUzNDYyMzExRTM4OEM4QUYxRjgwNDRCODVFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjMzQzFGRkU0NDYyMzExRTM4OEM4QUYxRjgwNDRCODVFIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MzNDMUZGRTE0NjIzMTFFMzg4QzhBRjFGODA0NEI4NUUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MzNDMUZGRTI0NjIzMTFFMzg4QzhBRjFGODA0NEI4NUUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW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" />
+                </a>
+
+                @Html.ActionLink("assignments", "assignments", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                  
+                   <li>@Html.ActionLink("People", "IndexPeople", "People")</li>
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Date.ToString("MM/dd/yyyy") -Waseem</p>
+        </footer>
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
