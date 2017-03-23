@@ -85,12 +85,10 @@ namespace MVCData.Controllers
             return RedirectToAction("IndexPeople");                    //directing back to main (People) page
         }
 
-        public ActionResult IndexPeoplePartialView()
-        {
-            return View(student);
+        
         }
     }
-}
+
 
 
 

@@ -172,7 +172,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\People\IndexPeople.cshtml" />
-    <Content Include="Views\People\IndexSearch.cshtml" />
     <Content Include="Views\People\Create.cshtml" />
     <Content Include="Views\People\Delete.cshtml" />
     <None Include="Web.Debug.config">
