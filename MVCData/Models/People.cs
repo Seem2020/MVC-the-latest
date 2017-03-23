@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations; //for validation
+using System.ComponentModel.DataAnnotations; 
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
@@ -11,7 +11,7 @@ namespace MVCData.Models
 {
     public class People
     {
-        [Required]      //  not null
+        [Required]      
         [Display(Name = "StudentName")]
         public string Name { get; set; }
 

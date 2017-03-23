@@ -16,7 +16,7 @@ namespace MVCData.Controllers
         static IList<People> student = new List<People>  //Mosh Hamadani Method , 
                                                          //IList = more control over a collection: Add, Delete, etc
 {
-    new People()  {PersonId=1, Name=" Waseem  ", City="Stockholm ", Telephone=343444434 },       //new List object
+    new People()  {PersonId=1, Name=" Waseem  ", City="Stockholm ", Telephone=343444434 },       //  new List object
     new People() {PersonId=2, Name="Mylah", City="Damascus", Telephone=10234567 },
     new People() {PersonId=3, Name="Andreas", City="Jonkoping", Telephone=3343 },
     new People() {PersonId=4, Name="Maher", City="Nassjo", Telephone=322321 },
